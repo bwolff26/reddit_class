@@ -1,0 +1,85 @@
+Reddit Project:
+Tesh2672 
+
+_b9AUSjWBa_l5HEZsL7GyukFDsBr3g
+
+http://www.example.com/unused/redirect/uri
+
+fz5trO8v4t3pcr2RSNj9TQ
+
+
+![gif](u1rchuphryq51 "optional caption")
+
+an image
+
+![img](srnr8tshryq51 "optional caption")
+
+and video
+
+![video](gmc7rvthryq51 "optional caption")
+
+Ef, for now let's keep it easy. Plus, even if we get an emoji/whatever post, likely the comments still use words...
+
+
+INCLUDE FLAIR
+FIx code re. anime_s2...
+try to cnvert true false, such as over 18, into integers...
+
+Re. outliers - eh, dn't worry about for now...
+go back to showing most popular words [before modeling ie use a countvec jsut for the sake of pregaming...]
+
+import warnings#Ida from Ben Moss
+warnings.simplefilter(action='ignore', category=FutureWarning);
+
+df = pd.DataFrame.from_dict(manga_table)
+df.to_csv('data/manga_table_i.csv', index=False)
+
+Re. presentation:
+re ads.add copy, so, focus on one of hte members f clients
+but,more elements to define...
+
+Assume they know a bit of the subject matter, but provide context...
+length of words re. titles, posts
+common words by list
+word imbalance of 4 words
+	sometimes copy hte same slid 4 times, albeit counted as one, to focus on different elements
+cmparing models [have r2 for all, precision...] 
+	potential have an appendix for stuff for technical audience.... re. hard metrics and facts
+confusion matrix for model --> bar accuracy and 1 other...
+
+intro
+intro to data/methodology
+
+df = pd.read_csv(‘./data/stoicism_buddhism_clean.csv’, lineterminator=‘\n’)
+
+Cover of anime guybattling manga counterpart
+
+1) Picture of graph of manga words, posts x anime posts, words
+
+2) common words in final model...
+	Maybe color to show if neutral, manga, or anime
+
+3) Show most important statistic for each of top four models:
+1 cvec mnb
+2 tiffany l
+3 cvec lr
+4 tiffany svc
+
+4) Accuracy and precision for final/best
+
+5) An example of a misclassified model [anime]
+
+
+misclassification example...
+
+ultimatelychat gpt was based upon rnn
+
+~~~
+2/20: Finally got over 9k [4.5k in both manga and anme]. So, done wiht the 'hard part' and now I can simply cnclude/leave concluded:
+all datat gathered between January and February of 2024...
+
+
+
+add explainability
+
+LAST PULL on Januay 31st, 2024 - wait until Wednesday, 2/6...
