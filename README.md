@@ -26,4 +26,6 @@ Initially, you sought to use the posts proper to differentiate between the two m
 
 Ultimately, you were able to salvage the data by comparing their titles, that had very comporable lengths. You later built several models to identify manga and anime posts, with the 'best' model having an oveall accuracy of over 95% and a precision of over 94%. And, to emphasize: Despite titles being an average of 9 words each, we were still able to overwhelming predict one categoy from another. This realization beckons the company to be cautious, as even a small number of words is often indicativ of one category over another, especially when the estimated length of a commercial is likely comparable to that of a post. To potentially work around this quandry, it might be justfied in having a shorter commercial.
 
+(I need to update the previous paragraph, but in short that was true from the first iteration of just 3kish records; nowadays with over 9k test accuracy is approximately 93.5% with the 'best'/final chosen modle (SVC with Tfidf).)
+
 Additionally, you were able to start to identify several key words that were overwhelmingly (by a ratio of at least 2:1) in one of the two categories. However, more analysis is called for to properly suggest a proper list of neutral words to choose from that would not be tilting towards either direction.
